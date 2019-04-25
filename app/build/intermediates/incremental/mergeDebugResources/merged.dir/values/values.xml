@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="cyan3">#307D7E</color>
+    <color name="green">#00FF00</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="orange">#FF8040</color>
+    <color name="red">  #FF0000</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+    <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr format="string" name="fontVariationSettings"/><attr format="integer" name="ttcIndex"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/><attr name="android:fontVariationSettings"/><attr name="android:ttcIndex"/></declare-styleable>
+    <declare-styleable name="GradientColor"><attr name="android:startColor"/><attr name="android:centerColor"/><attr name="android:endColor"/><attr name="android:type"/><attr name="android:gradientRadius"/><attr name="android:centerX"/><attr name="android:centerY"/><attr name="android:startX"/><attr name="android:startY"/><attr name="android:endX"/><attr name="android:endY"/><attr name="android:tileMode"/></declare-styleable>
+    <declare-styleable name="GradientColorItem"><attr name="android:offset"/><attr name="android:color"/></declare-styleable>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="Readdummy">D Read</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="SystemId">SystemId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="app_name">fmECG 7 signals IIR</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">connect</string>
+    <string name="connected">Connected</string>
+    <string name="device">Device:</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">Not connected</string>
+    <string name="flow">Flow:</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="no_device">&lt;Select a device></string>
+    <string name="not_connected">Not Connected</string>
+    <string name="pair">pair</string>
+    <string name="paired">paired</string>
+    <string name="ph">pH:</string>
+    <string name="popup_cancel">CANCEL</string>
+    <string name="popup_message">Do you want to quit this Application?</string>
+    <string name="popup_message2">Do you want to save to a new file or overwrite an existing one?</string>
+    <string name="popup_new">NEW</string>
+    <string name="popup_no">NO</string>
+    <string name="popup_overwrite">OVERWRITE</string>
+    <string name="popup_title1">QUIT</string>
+    <string name="popup_title2">SAVE</string>
+    <string name="popup_yes">YES</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="ready">Ready</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="temperature">Temperature:</string>
+    <string name="turbidity">Turbidity:</string>
+    <string name="unpair">unpair</string>
+    <string name="updated">Updated</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DialogLight" parent="@android:style/Theme.Dialog">
+        
+        <item name="android:windowBackground">@color/whitegrey</item>
+    	<item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+</resources>
